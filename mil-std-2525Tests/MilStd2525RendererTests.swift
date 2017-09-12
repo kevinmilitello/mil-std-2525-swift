@@ -23,7 +23,7 @@ class MilStd2525RendererTests: XCTestCase {
     func testRenderNeutralGroundUnit(){
         let symbolId = "SNG-U----------" //Neutral Ground Unit
     
-        let symbolImage = MilStd2525Renderer.imageFrom(symbolId: symbolId)
+        let symbolImage = MilStd2525Renderer().iconFrom(symbolId: symbolId)
         
         XCTAssertNotNil(symbolImage)
     }
@@ -31,7 +31,7 @@ class MilStd2525RendererTests: XCTestCase {
     func testRenderHostilePhaseLine(){
         let symbolId = "GHGAGLP----AUSX"//Ex. from https://goworldwind.org/developers-guide/symbology/tactical-graphics/
         
-        let symbolImage = MilStd2525Renderer.imageFrom(symbolId: symbolId)
+        let symbolImage = MilStd2525Renderer().iconFrom(symbolId: symbolId)
         
         XCTAssertNotNil(symbolImage)
     }

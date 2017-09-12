@@ -10,8 +10,15 @@ import UIKit
 
 class MilStd2525Renderer: TacticalGraphicIconRenderer {
     
-    static func imageFrom(symbolId: String) -> UIImage? {
-        return nil
+    public func iconFrom(symbolId: String) -> UIImage?{
+        return iconFrom(symbolId: symbolId, pixelHeightWidth: 25, color: nil)
     }
     
+    public func iconFrom(symbolId: String, pixelHeightWidth: CGFloat) -> UIImage?{
+        return iconFrom(symbolId: symbolId, pixelHeightWidth: pixelHeightWidth, color: nil)
+    }
+    
+    public func iconFrom(symbolId: String, pixelHeightWidth: CGFloat, color: CGColor?) -> UIImage?{
+        return nil
+    }
 }

@@ -18,7 +18,19 @@ class SymbolUtilities{
         return UIColor.black.cgColor
     }
     
+    static func fillColorOfWeather(symbolId: String)->CGColor{
+        return UIColor.black.cgColor
+    }
+    
+    static func lineColorOfWeather(symbolId: String)->CGColor{
+        return UIColor.black.cgColor
+    }
+    
     static func hasDefaultFill(symbolId: String)->Bool{
         return true
+    }
+
+    static func isWeather(symbolId: String)->Bool{
+        return false
     }
 }

@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kevin Militello. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class MilStd2525Renderer: TacticalGraphicIconRenderer {
     

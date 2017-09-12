@@ -10,6 +10,8 @@
 		0A3BC9621F5794CC000FF531 /* mil_std_2525.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3BC9581F5794CC000FF531 /* mil_std_2525.framework */; };
 		0A3BC9671F5794CC000FF531 /* mil_std_2525Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3BC9661F5794CC000FF531 /* mil_std_2525Tests.swift */; };
 		0A3BC9691F5794CC000FF531 /* mil_std_2525.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3BC95B1F5794CC000FF531 /* mil_std_2525.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6612001F676B8E00C9A79B /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6611FF1F676B8E00C9A79B /* Dimension.swift */; };
+		0A6612011F676B8E00C9A79B /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6611FF1F676B8E00C9A79B /* Dimension.swift */; };
 		0A68B9DB1F57986300EF84A0 /* TacticalGraphicIconRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68B9DA1F57986300EF84A0 /* TacticalGraphicIconRenderer.swift */; };
 		0A68B9DD1F579A4200EF84A0 /* MilStd2525Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68B9DC1F579A4200EF84A0 /* MilStd2525Renderer.swift */; };
 		0A68B9E11F579CF200EF84A0 /* StandardIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68B9E01F579CF200EF84A0 /* StandardIdentity.swift */; };
@@ -42,6 +44,7 @@
 		0A3BC9611F5794CC000FF531 /* mil-std-2525Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mil-std-2525Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3BC9661F5794CC000FF531 /* mil_std_2525Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mil_std_2525Tests.swift; sourceTree = "<group>"; };
 		0A3BC9681F5794CC000FF531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6611FF1F676B8E00C9A79B /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
 		0A68B9DA1F57986300EF84A0 /* TacticalGraphicIconRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticalGraphicIconRenderer.swift; sourceTree = "<group>"; };
 		0A68B9DC1F579A4200EF84A0 /* MilStd2525Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilStd2525Renderer.swift; sourceTree = "<group>"; };
 		0A68B9E01F579CF200EF84A0 /* StandardIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardIdentity.swift; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 				0A68B9E01F579CF200EF84A0 /* StandardIdentity.swift */,
 				0A68B9E21F579DEE00EF84A0 /* Context.swift */,
 				0A94C60B1F5CFC6C0030E0AA /* Domain.swift */,
+				0A6611FF1F676B8E00C9A79B /* Dimension.swift */,
 			);
 			path = enums;
 			sourceTree = "<group>";
@@ -285,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A68B9E11F579CF200EF84A0 /* StandardIdentity.swift in Sources */,
+				0A6612001F676B8E00C9A79B /* Dimension.swift in Sources */,
 				0A68B9E31F579DEE00EF84A0 /* Context.swift in Sources */,
 				0A68B9DB1F57986300EF84A0 /* TacticalGraphicIconRenderer.swift in Sources */,
 				0A68B9E51F57A01B00EF84A0 /* MilStdSymbol.swift in Sources */,
@@ -299,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A94C60A1F5CFAE40030E0AA /* MilStdSymbolTests.swift in Sources */,
+				0A6612011F676B8E00C9A79B /* Dimension.swift in Sources */,
 				0A94C60F1F5DB0C30030E0AA /* Octagon.swift in Sources */,
 				0A94C6171F5DC3DF0030E0AA /* OctagonTests.swift in Sources */,
 				0ABBE9DB1F5B374B00119BA1 /* MilStd2525Renderer.swift in Sources */,
